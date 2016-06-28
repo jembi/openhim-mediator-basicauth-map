@@ -1,0 +1,48 @@
+{
+  "name": "openhim-mediator-basicauth-map",
+  "version": "0.0.1",
+  "description": "Adds basic auth details that are looked up from a map of OpenHIM client IDs",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "npm -s run test:code && npm -s run test:style",
+    "test:code": "tap --cov --reporter=spec test/unit.js test/integration.js",
+    "test:style": "standard -v | snazzy",
+    "cov": "npm run test:code -- --coverage-report=lcov",
+    "test:watch": "onchange '**/*.js' -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jembi/openhim-mediator-basicauth-map.git"
+  },
+  "keywords": [
+    "openhim",
+    "mediator"
+  ],
+  "author": "Jembi Health Systems NPC",
+  "license": "MPL-2.0",
+  "contributors": [
+    "Ryan Crichton"
+  ],
+  "bugs": {
+    "url": "https://github.com/jembi/openhim-mediator-basicauth-map/issues"
+  },
+  "homepage": "https://github.com/jembi/openhim-mediator-basicauth-map#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "openhim-mediator-utils": "^0.2.2",
+    "request": "^2.72.0",
+    "urijs": "^1.17.1",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  },
+  "devDependencies": {
+    "onchange": "^2.3.0",
+    "winston": "^2.2.0",
+    "rewire": "^2.5.1",
+    "snazzy": "^3.0.1",
+    "standard": "^6.0.8",
+    "tap": "^5.7.1"
+  }
+}

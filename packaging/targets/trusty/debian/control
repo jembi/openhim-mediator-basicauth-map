@@ -1,0 +1,14 @@
+Source: openhim-mediator-basicauth-map
+Maintainer: Ryan Crichton
+Section: web
+Priority: optional
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+Homepage: https://github.com/jembi/openhim-mediator-basicauth-map
+
+
+Package: openhim-mediator-basicauth-map
+Architecture: amd64
+Depends: openhim-core-js
+Recommends:
+Description: Adds basic auth details that are looked up from a map of OpenHIM client IDs
