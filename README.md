@@ -5,4 +5,4 @@ Run with: `npm start`
 
 Edit the basic auth details map with the mediator config in the OpenHIM console.
 
-https://travis-ci.org/jembi/openhim-mediator-basicauth-map.svg?branch=master
+[![Build Status](https://travis-ci.org/jembi/openhim-mediator-basicauth-map.svg?branch=master)](https://travis-ci.org/jembi/openhim-mediator-basicauth-map)
