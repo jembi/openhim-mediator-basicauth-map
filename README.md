@@ -4,3 +4,5 @@ Adds basic auth details that are looked up from a map of OpenHIM client IDs. The
 Run with: `npm start`
 
 Edit the basic auth details map with the mediator config in the OpenHIM console.
+
+https://travis-ci.org/jembi/openhim-mediator-basicauth-map.svg?branch=master
