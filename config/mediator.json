@@ -57,6 +57,12 @@
           "type": "string"
         },
         {
+          "param": "instanceID",
+          "displayName": "Instance ID",
+          "description": "The instance ID (passed in as request parameter) within the same client whose requests will have the following basic auth details added (blank if none)",
+          "type": "string"
+        },
+        {
           "param": "username",
           "displayName": "Username",
           "description": "The basic auth username to add for this clientID",
@@ -75,6 +81,7 @@
     "mapping": [
       {
         "clientID": "test123",
+        "instanceID": "TEST",
         "username": "testUsername",
         "password": "testPassword"
       }
